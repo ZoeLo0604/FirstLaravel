@@ -12,16 +12,16 @@
     <title>Zoe First Laravel with Bootstrap</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="FirstLaravel/public/css/bootstrap.css" rel="stylesheet">
+    <link href="/FirstLaravel/public/css/bootstrap.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="FirstLaravel/public/css/metisMenu.css" rel="stylesheet">
+    <link href="/FirstLaravel/public/css/metisMenu.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="FirstLaravel/public/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/FirstLaravel/public/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="FirstLaravel/public/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/FirstLaravel/public/css/font-awesome.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -274,7 +274,7 @@
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="{{ url('/sample/dashboard') }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
@@ -309,16 +309,16 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="FirstLaravel/public/js/jquery.js"></script>
+<script src="/FirstLaravel/public/js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="FirstLaravel/public/js/bootstrap.js"></script>
+<script src="/FirstLaravel/public/js/bootstrap.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="FirstLaravel/public/js/metisMenu.js"></script>
+<script src="/FirstLaravel/public/js/metisMenu.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="FirstLaravel/public/js/sb-admin-2.js"></script>
+<script src="/FirstLaravel/public/js/sb-admin-2.js"></script>
 
 </body>
 

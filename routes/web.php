@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => '/sample'], function () {
+
+    Route::get('dashboard', function () {
+        return view('pages.dashboard');
+    });
+
+});
