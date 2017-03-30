@@ -21,4 +21,12 @@ Route::group(['prefix' => '/sample'], function () {
         return view('pages.dashboard');
     });
 
+    Route::get('tables', 'UserController@showAllUser');
+
+    Route::get('createUser', function () {
+        return view('pages.createUser');
+    });
+
+    Route::post('/creatingUser', 'UserController@createUser');
+
 });
